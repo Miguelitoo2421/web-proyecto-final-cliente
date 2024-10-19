@@ -5,7 +5,7 @@ export class Auth {
 
     async register(data){
         try {
-            const url = `{this.baseApi}/${ENV.API_ROUTES.REGISTER}`
+            const url = `${this.baseApi}/${ENV.API_ROUTES.REGISTER}`
             const params = {
                 method: "POST",
                 headers: {
